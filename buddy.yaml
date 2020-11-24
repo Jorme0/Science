@@ -1,0 +1,6 @@
+  - action: "Push to "
+    type: "PUSH"
+    push_tags: true
+    git_auth_mode: "CURRENT"
+    comment: "$BUDDY_EXECUTION_ID"
+    trigger_condition: "ALWAYS"
